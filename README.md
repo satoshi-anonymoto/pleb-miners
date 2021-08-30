@@ -6,6 +6,7 @@ Our goal is to collect all the info and resources we can to help plebs get start
 ## Overview
 Start with [@econoalchemist](https://twitter.com/econoalchemist)'s in-depth article on home mining: [Home mining for non-KYC Bitcoin](https://www.econoalchemist.com/post/home-mining-for-non-kyc-bitcoin)
 
+## Topics
 * ASIC Profitability
 * Purchasing
 * Electrical Wiring
@@ -14,4 +15,3 @@ Start with [@econoalchemist](https://twitter.com/econoalchemist)'s in-depth arti
 * [API Access / Automated Control](api/README.md)
 * Maintenance/Repair
 * Mining Pools
-

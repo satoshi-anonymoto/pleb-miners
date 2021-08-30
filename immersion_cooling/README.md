@@ -82,6 +82,11 @@ Have been used for quick, short-term experiments and in some plebs' main setups.
 Huge array of possibilities here. Steel or alumninum [don't have any issues](https://t.me/ImmersionCoolingTechnologyTalk/16524) interacting with the cooling oil. Again take care to pay attention to any seams.
 
 
+## Cooling oil
+* [DCX ThermaSafe R](https://cryptocooling.eu/#fluid): $240 for 24L; only ships from Poland.
+* [Engineering Fluids BitCool](https://www.engineeredfluids.com/bitcool): $180 for 20L (5.28gal); ships from Texas.
+* Mineral Oil: Usable for inexpensive miners (e.g. S9) or experiments but is generally expected to have impurities that will degrade the electronics.
+
 
 ## Sample builds
 [CoinHeated's double loop pool heating system](pleb_builds/coinheated.md)
