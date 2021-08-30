@@ -11,6 +11,7 @@ Start with [@econoalchemist](https://twitter.com/econoalchemist)'s in-depth arti
 * Electrical Wiring
 * Air Cooling & Noise Suppression
 * [Immersion Cooling](immersion_cooling/README.md)
+* [API Access / Automated Control](api/README.md)
 * Maintenance/Repair
 * Mining Pools
 
