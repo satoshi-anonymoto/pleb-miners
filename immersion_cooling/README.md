@@ -62,13 +62,21 @@ cons:
 ## Containers
 Remember that the cooling oil is the most expensive part of the system. Do not cut corners on a container that may end up leaking your oil!
 
-There are a few DIY options listed to build your own container. Unless you can find the perfect pre-made container that checks off all the boxes 
+There are a few DIY options listed to build your own container. A custom build is the best way to minimize wasted volume in your container and therefore minimize the amount of oil required.
 
 ### Fish tanks
 Have been used for quick, short-term experiments and in some plebs' main setups. Some concerns about the durability of corner joins holding up to the hot oil over time but [at least one report](https://t.me/ImmersionCoolingTechnologyTalk/16504) of the silicon edge seals being compatible with BitCool.
 
 ### Off-the-shelf metal containers
 Huge array of possibilities here. Steel or alumninum [don't have any issues](https://t.me/ImmersionCoolingTechnologyTalk/16524) interacting with the cooling oil. Again take care to pay attention to any seams.
+
+### DIY acrylic builds
+Acrylic is not the cheapest raw material to work with and requires a saw (ideally a table saw) or perhaps a manual scoring knife. But you can build exactly to your size specifications and have the added benefit of  transparency to see your immersed ASIC in action. Acrylic solvent makes a watertight seal between edges. 
+
+See this [tutorial for making a fish tank](https://www.youtube.com/watch?v=H8LGIrVJQZs). In the fish tank world they say you have to use 8-12mm thick acrylic. Small custom enclosures might be able to get away with slightly thinner acrylic.
+
+### DIY steel builds
+Very cheap raw material. But you have to be able to custom cut pieces and weld them.
 
 
 ## Plate heat exchangers
@@ -83,9 +91,9 @@ The oil-to-water transfer block for dual-loop systems. Plate heat exchangers wit
 
 
 ## Oil and water pumps
-* [1/4 HP submersible](https://www.menards.com/main/plumbing/pumps-tanks/utility-sump-pumps/barracuda-reg-1-4-hp-thermoplastic-submersible-utility-pump/91250/p-1444428713624-c-1489153238832.htm?tid=5737724981746642496&ipos=8): 1500gph, 456W. [Works in hot oil](https://t.me/ImmersionCoolingTechnologyTalk/16593)
-* [1/4 HP submersible high flow](https://www.amazon.com/dp/B08BLTM97Q/ref=cm_sw_r_tw_dp_08FW16JB91VWQ5PP4F60?_encoding=UTF8&psc=1): 2400gph, 456W
-* [1/3 HP submersible high flow](https://www.amazon.com/dp/B000X07GQS/ref=cm_sw_r_tw_dp_D5J9KFRC67JP0JGZY0T8?_encoding=UTF8&psc=1): 2400gph, 492W
+* [1/4 HP submersible](https://www.menards.com/main/plumbing/pumps-tanks/utility-sump-pumps/barracuda-reg-1-4-hp-thermoplastic-submersible-utility-pump/91250/p-1444428713624-c-1489153238832.htm?tid=5737724981746642496&ipos=8): $56, 1500gph, 456W. [Works in hot oil](https://t.me/ImmersionCoolingTechnologyTalk/16593)
+* [1/4 HP submersible high flow](https://www.amazon.com/dp/B08BLTM97Q/ref=cm_sw_r_tw_dp_08FW16JB91VWQ5PP4F60?_encoding=UTF8&psc=1): $50, 2400gph, 456W
+* [1/3 HP submersible high flow](https://www.amazon.com/dp/B000X07GQS/ref=cm_sw_r_tw_dp_D5J9KFRC67JP0JGZY0T8?_encoding=UTF8&psc=1): $58, 2400gph, 492W
 
 ### Guesstimating oil pump requirements
 Let's double the high end of the 2-4L/min per kW minimum guideline. And then add another 25% buffer. Then assume the pump's flow rate is cut in half by pumping the thicker cooling oil.
@@ -94,7 +102,7 @@ So for a 7.2kW system (two Whatsminer M31s+):
 
 `7.2 * 4*2 * 1.25 / 3.785L/gal * 60min/hr * 2 = 2282 gal/hr`
 
-In theory, [this fairly cheap 2400gph, 1/3 HP submersible pump](https://www.amazon.com/dp/B000X07GQS/ref=emc_b_5_t?th=1) should suffice.
+In theory, any of the 2400gph pumps above should suffice.
 
 
 ### Guesstimating water pump requirements
@@ -104,15 +112,18 @@ The water pump math will depend on the size of the radiator and also the size of
 ## Water-to-air heat exchangers (aka radiators)
 Will need to be custom sized for each individual setup. Also need a fan to either push or pull air through the radiator.
 
-* [Example 16"x16" radiator](https://smile.amazon.com/dp/B07BB26LGF)
-* [Example 16" fan](https://amazon.com/Universal-Electric-Radiator-Cooling-Mount/dp/B014KK7LDY)
+* [16"x16" radiator](https://smile.amazon.com/dp/B07BB26LGF): $159, 65k BTU
+* [24"x24" radiator](https://www.amazon.com/dp/B07HD7ZDJ5/ref=cm_sw_r_tw_dp_DBXG9XYRXRV4193YGPNF): $249, 210k BTU
+* [16" fan](https://amazon.com/Universal-Electric-Radiator-Cooling-Mount/dp/B014KK7LDY): $41, 3000cfm, 120W
 
 ### Guesstimating performance of the radiator
 Rough estimate: take the lower BTU rating and cut it in half for a cooling application. Then convert the value to kW equivalent. Example w/a 65,000 BTU radiator:
 
 `65,000/2 * 0.00029307107kW/BTU/hr = 9.5kWh`
 
-In theory this radiator could keep up with dissipating heat from three 3kW ASICs (this all needs vetting so don't rely on this math). But there is inefficiency throughout the system so perhaps more realistic to only expect 2/3 of the performance.
+In theory this radiator could keep up with dissipating heat from three 3kW ASICs, though in the real world we also need to consider the temperature differential of the ambient air and the airflow provided by the fan. And there is inefficiency throughout the system so perhaps more realistic to only expect 2/3 of the performance.
+
+_The math and assumptions here need to be vetted. Consider them highly suspect._
 
 
 ## Cooling oil
