@@ -58,17 +58,6 @@ cons:
 * Oil flow through the ASIC is key. Some miners [leave the case fans on](https://t.me/ImmersionCoolingTechnologyTalk/15448) to generate flow.
 * Oil-to-water [plate heat exchanger efficiency](https://t.me/ImmersionCoolingTechnologyTalk/16376): 120°F oil input heats the water to 110°F
 
-### Guesstimating oil & water pump requirements
-Guesstimating oil pump capabilities: Let's double the 2-4L/min per kW guideline. And then add another 25% buffer. Then assume the pump's flow rate is cut in half by pumping the thicker cooling oil.
-
-So for a 7.2kW system (two Whatsminer M31s+):
-
-`7.2 * 4*2 * 1.25 / 3.785L/gal * 60min/hr * 2 = 2282 gal/hr`
-
-In theory, [this fairly cheap 2600gph submersible pump](https://www.amazon.com/VIVOSUN-Submersible-Waterfall-Statuary-Hydroponic/dp/B07FJWM52K) should suffice.
-
-The water pump math will depend on the size of the radiator. I don't have a good starting point here, other than that I'll be aiming for ~8gpm and then size the radiator accordingly (somehow).
-
 
 ## Containers
 Remember that the cooling oil is the most expensive part of the system. Do not cut corners on a container that may end up leaking your oil!
@@ -80,6 +69,50 @@ Have been used for quick, short-term experiments and in some plebs' main setups.
 
 ### Off-the-shelf metal containers
 Huge array of possibilities here. Steel or alumninum [don't have any issues](https://t.me/ImmersionCoolingTechnologyTalk/16524) interacting with the cooling oil. Again take care to pay attention to any seams.
+
+
+## Plate heat exchangers
+The oil-to-water transfer block for dual-loop systems. Plate heat exchangers with smaller ports (3/4", 1"?) will likely be harder for a pump to push the cooling oil through. Need more testing. For now just opt for the 1.25" ports?
+
+* [5"x12" 20-plate 1" ports](https://www.amazon.com/Mophorn-Plate-Exchanger-Water-Stainless/dp/B07333GY5N/): $99, 80k BTU
+* [5"x12" 30-plate 1.25" ports](https://www.amazon.com/dp/B085BYZFH8/): $140, no listed BTU
+* [5"x12" 10-plate 1.25" ports](https://www.amazon.com/dp/B073ZMQLQ9/ref=cm_sw_r_tw_dp_YBK78TMJ28RV1GYV073G?_encoding=UTF8&psc=1): $143, 110k BTU (suspiciously high?)
+* [5"x12" 60-plate 1.25" ports](https://www.amazon.com/dp/B07334VF8T/): $180, 150k BTU;
+* [5"x12" 60-plate 1.25" ports](https://www.amazon.com/VEVOR-Exchanger-Stainless-Hydronic-Heating/dp/B08N558K97): $190, no listed BTU. [Used by CoinHeating](https://t.me/ImmersionCoolingTechnologyTalk/16568)
+* [5"x12" 20-plate 1.25" ports](https://www.amazon.com/dp/B073ZNGL48/ref=cm_sw_r_tw_dp_CBSXQ68P0JK9P52RSQSP?_encoding=UTF8&psc=1): $165, 170k BTU (suspiciously high?)
+
+
+## Oil and water pumps
+* [1/4 HP submersible](https://www.menards.com/main/plumbing/pumps-tanks/utility-sump-pumps/barracuda-reg-1-4-hp-thermoplastic-submersible-utility-pump/91250/p-1444428713624-c-1489153238832.htm?tid=5737724981746642496&ipos=8): 1500gph, 456W. [Works in hot oil](https://t.me/ImmersionCoolingTechnologyTalk/16593)
+* [1/4 HP submersible high flow](https://www.amazon.com/dp/B08BLTM97Q/ref=cm_sw_r_tw_dp_08FW16JB91VWQ5PP4F60?_encoding=UTF8&psc=1): 2400gph, 456W
+* [1/3 HP submersible high flow](https://www.amazon.com/dp/B000X07GQS/ref=cm_sw_r_tw_dp_D5J9KFRC67JP0JGZY0T8?_encoding=UTF8&psc=1): 2400gph, 492W
+
+### Guesstimating oil pump requirements
+Let's double the high end of the 2-4L/min per kW minimum guideline. And then add another 25% buffer. Then assume the pump's flow rate is cut in half by pumping the thicker cooling oil.
+
+So for a 7.2kW system (two Whatsminer M31s+):
+
+`7.2 * 4*2 * 1.25 / 3.785L/gal * 60min/hr * 2 = 2282 gal/hr`
+
+In theory, [this fairly cheap 2400gph, 1/3 HP submersible pump](https://www.amazon.com/dp/B000X07GQS/ref=emc_b_5_t?th=1) should suffice.
+
+
+### Guesstimating water pump requirements
+The water pump math will depend on the size of the radiator and also the size of the plate heat exchanger ports (3/4", 1", 1.25").
+
+
+## Water-to-air heat exchangers (aka radiators)
+Will need to be custom sized for each individual setup. Also need a fan to either push or pull air through the radiator.
+
+* [Example 16"x16" radiator](https://smile.amazon.com/dp/B07BB26LGF)
+* [Example 16" fan](https://amazon.com/Universal-Electric-Radiator-Cooling-Mount/dp/B014KK7LDY)
+
+### Guesstimating performance of the radiator
+Rough estimate: take the lower BTU rating and cut it in half for a cooling application. Then convert the value to kW equivalent. Example w/a 65,000 BTU radiator:
+
+`65,000/2 * 0.00029307107kW/BTU/hr = 9.5kWh`
+
+In theory this radiator could keep up with dissipating heat from three 3kW ASICs (this all needs vetting so don't rely on this math). But there is inefficiency throughout the system so perhaps more realistic to only expect 2/3 of the performance.
 
 
 ## Cooling oil
