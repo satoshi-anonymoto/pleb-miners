@@ -15,3 +15,17 @@ Start with [@econoalchemist](https://twitter.com/econoalchemist)'s in-depth arti
 * [API Access / Automated Control](api/README.md)
 * Maintenance/Repair
 * Mining Pools
+
+
+## How to contribute to this repo
+Create a Github account.
+
+Use Github's integrated web-based Visual Studio Code editor! Browse to:
+
+[https://github.dev/satoshi-anonymoto/pleb-miners](https://github.dev/satoshi-anonymoto/pleb-miners)
+
+You'll see the repo's directory structure and can just navigate to the file that you want to edit or you can add new files and folders.
+
+When you're done making changes, click the "Source Control" icon, review your changes, type in a commit message (should briefly explain your changes), then click the checkmark icon at the top of the left menu panel.
+
+If your changes conflict or overlap with someone else's, you will need to "merge" them--decide which changes to keep and which to throw out.
