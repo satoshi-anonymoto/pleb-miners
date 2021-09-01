@@ -155,6 +155,6 @@ _The math and assumptions here need to be vetted. Consider them highly suspect._
 
 
 ## Sample builds
-[CoinHeated's double loop pool heating system](pleb_builds/coinheated.md)
-[Satoshi Anonymoto's (planned) two-ASIC/7.2kW build](pleb_builds/satoshi_anonymoto.md)
-[The Pleb Tank (proposed)](pleb_builds/pleb_tank.md)
+* [CoinHeated's double loop pool heating system](pleb_builds/coinheated.md)
+* [Satoshi Anonymoto's (planned) two-ASIC/7.2kW build](pleb_builds/satoshi_anonymoto.md)
+* [The Pleb Tank (proposed)](pleb_builds/pleb_tank.md)
