@@ -104,12 +104,6 @@ There are also cast iron brushed motor pumps that look impressive but they all s
 
 There are various other submersible pumps that boast 2400gpm rates but only consume 100-200W. Reviews often looked mixed about how much power these pumps actually have. Be skeptical.
 
-### Water pump candidates
-* [3-speed hot water circulation pump, food grade](https://www.amazon.com/dp/B072M9C7X7/ref=cm_sw_r_tw_dp_DPEYCJE8BE2P00ZZDM0T): $98, 9.5gpm/570gph, 93W, fluids up to 212°F
-
-The 3-speed hot water circulator pump is interesting because it's purpose-built for exactly our use case: hot water circulation. The speed settings might make it more tunable for small pleb setups that don't need it running full-out all the time. We could consider the same cheap 1/4 HP submersible pumps above but this pump's very low power consumption (even on its highest setting) will more than make up for its 2x in price. Presumably a pump meant for hot water will last longer than the submersible utility pumps that have a stated 120°F thermal cutoff limit. This pump is designed to push water through a whole house so a short water line through a radiator shouldn't be a problem (but need to test!).
-
-
 ### Guesstimating oil pump requirements
 Let's double the high end of the 2-4L/min per kW minimum guideline. And then add another 25% buffer. Then assume the pump's flow rate is cut in half by pumping the thicker cooling oil.
 
@@ -120,6 +114,11 @@ So for a 7.2kW system (two Whatsminer M31s+):
 In theory, any of the 2400gph pumps above should suffice.
 
 
+## Water pump candidates
+* [3-speed hot water circulation pump, food grade](https://www.amazon.com/dp/B072M9C7X7/ref=cm_sw_r_tw_dp_DPEYCJE8BE2P00ZZDM0T): $98, 9.5gpm/570gph, 93W, fluids up to 212°F
+
+The 3-speed hot water circulator pump is interesting because it's purpose-built for exactly our use case: hot water circulation. The speed settings might make it more tunable for small pleb setups that don't need it running full-out all the time. We could consider the same cheap 1/4 HP submersible pumps above but this pump's very low power consumption (even on its highest setting) will more than make up for its 2x in price. Presumably a pump meant for hot water will last longer than the submersible utility pumps that have a stated 120°F thermal cutoff limit. This pump is designed to push water through a whole house so a short water line through a radiator shouldn't be a problem (but need to test!).
+
 ### Guesstimating water pump requirements
 The water pump math will depend on the size of the radiator and also the size of the plate heat exchanger ports (3/4", 1", 1.25").
 
@@ -128,6 +127,7 @@ The water pump math will depend on the size of the radiator and also the size of
 Will need to be custom sized for each individual setup. Also need a fan to either push or pull air through the radiator.
 
 * [16"x16" radiator](https://smile.amazon.com/dp/B07BB26LGF): $159, 65k BTU
+* [18"x20" radiator](https://www.amazon.com/dp/B07HDSCPPP/ref=cm_sw_r_tw_dp_0D89ABSTWZE4YQG3HQTM): $165, 133k BTU with 180°F Entering Water Temp., 15 GPM and 2000 CFM
 * [24"x24" radiator](https://www.amazon.com/dp/B07HD7ZDJ5/ref=cm_sw_r_tw_dp_DBXG9XYRXRV4193YGPNF): $249, 210k BTU
 * [16" fan](https://amazon.com/Universal-Electric-Radiator-Cooling-Mount/dp/B014KK7LDY): $41, 3000cfm, 120W
 
@@ -147,5 +147,14 @@ _The math and assumptions here need to be vetted. Consider them highly suspect._
 * Mineral Oil: Usable for inexpensive miners (e.g. S9) or experiments but is generally expected to have impurities that will degrade the electronics.
 
 
+## Preparing ASICs for immersion
+
+### Cleaning
+
+### Software, fan spoofing
+
+
 ## Sample builds
 [CoinHeated's double loop pool heating system](pleb_builds/coinheated.md)
+[Satoshi Anonymoto's (planned) two-ASIC/7.2kW build](pleb_builds/satoshi_anonymoto.md)
+[The Pleb Tank (proposed)](pleb_builds/pleb_tank.md)
