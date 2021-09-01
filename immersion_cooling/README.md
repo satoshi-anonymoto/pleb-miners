@@ -90,21 +90,25 @@ The oil-to-water transfer block for dual-loop systems. Plate heat exchangers wit
 * [5"x12" 20-plate 1.25" ports](https://www.amazon.com/dp/B073ZNGL48/ref=cm_sw_r_tw_dp_CBSXQ68P0JK9P52RSQSP?_encoding=UTF8&psc=1): $165, 170k BTU (suspiciously high?)
 
 
-## Oil and water pumps
+## Oil pump candidates
 * [1/4 HP submersible](https://www.menards.com/main/plumbing/pumps-tanks/utility-sump-pumps/barracuda-reg-1-4-hp-thermoplastic-submersible-utility-pump/91250/p-1444428713624-c-1489153238832.htm?tid=5737724981746642496&ipos=8): $56, 1500gph, 456W. [Works in hot oil](https://t.me/ImmersionCoolingTechnologyTalk/16593)
 * [1/4 HP submersible high flow](https://www.amazon.com/dp/B08BLTM97Q/ref=cm_sw_r_tw_dp_08FW16JB91VWQ5PP4F60?_encoding=UTF8&psc=1): $50, 2400gph, 456W
 * [1/3 HP submersible high flow](https://www.amazon.com/dp/B000X07GQS/ref=cm_sw_r_tw_dp_D5J9KFRC67JP0JGZY0T8?_encoding=UTF8&psc=1): $58, 2400gph, 492W
-* [3-speed hot water circulation pump, food grade](https://www.amazon.com/dp/B072M9C7X7/ref=cm_sw_r_tw_dp_DPEYCJE8BE2P00ZZDM0T): $98, 9.5gpm/570gph, 93W, fluids up to 212°F
+* [Iron Might 1/15 HP](https://smile.amazon.com/dp/B00HEAOTEM/ref=cm_sw_r_tw_dp_TGZ3M41XQ7F02P4KSDRX): $148, 40gpm/2400gph, 1.3A / 156W. Designed for 24hr operation.
 
-Need to test different pumps. The 1/4 and 1/3 HP submersible pumps are known to work thanks to [CoinHeating](https://t.me/ImmersionCoolingTechnologyTalk/16593) but consume a lot of power. Might need that power to push the cooling oil through the plate heat exchanger, though.
+Need to test different pumps. The 1/4 and 1/3 HP submersible pumps are known to work thanks to [CoinHeating](https://t.me/ImmersionCoolingTechnologyTalk/16593) but consume a lot of power. Might need that power to push the cooling oil through the plate heat exchanger, though. And even though they state that they have a 120°F shut-off, in [real-world tests](https://t.me/ImmersionCoolingTechnologyTalk/16765) they ran to an oil temp of 160°F.
 
-The 3-speed hot water circulator pump is interesting because it's purpose-built for exactly our use case (albeit for hot water, not oil). The speed settings might make it more tunable for small pleb setups that don't need it running full-out all the time. Its much lower power consumption will more than make up for its 2x in price. Presumably a pump meant for hot water will last longer than the submersible utility pumps that have a stated 120°F thermal cutoff limit (as measured at the motor). But is 93W (the highest speed setting) too hopelessly wimpy? And its max flow rate might be way short of the mark for the oil loop.
-
-However, it might still be viable for the water loop. These pumps are designed to push water through a whole house so a short water line through a radiator shouldn't be a problem (but need to test!).
+The Iron Might 1/15 HP pump looks temptingly more efficient. If it lives up to its stated numbers, its 3x price will easily be offset by its much lower energy consumption. However, it has to be installed below the water line to be gravity fed and it is not submersible. So your container would need ports drilled through the side or bottom.
 
 There are also cast iron brushed motor pumps that look impressive but they all say that the brushes should be inspected every 100hrs of run time. They obviously aren't meant for continuous operation. They're probably inefficient power hogs, too.
 
 There are various other submersible pumps that boast 2400gpm rates but only consume 100-200W. Reviews often looked mixed about how much power these pumps actually have. Be skeptical.
+
+### Water pump candidates
+* [3-speed hot water circulation pump, food grade](https://www.amazon.com/dp/B072M9C7X7/ref=cm_sw_r_tw_dp_DPEYCJE8BE2P00ZZDM0T): $98, 9.5gpm/570gph, 93W, fluids up to 212°F
+
+The 3-speed hot water circulator pump is interesting because it's purpose-built for exactly our use case: hot water circulation. The speed settings might make it more tunable for small pleb setups that don't need it running full-out all the time. We could consider the same cheap 1/4 HP submersible pumps above but this pump's very low power consumption (even on its highest setting) will more than make up for its 2x in price. Presumably a pump meant for hot water will last longer than the submersible utility pumps that have a stated 120°F thermal cutoff limit. This pump is designed to push water through a whole house so a short water line through a radiator shouldn't be a problem (but need to test!).
+
 
 ### Guesstimating oil pump requirements
 Let's double the high end of the 2-4L/min per kW minimum guideline. And then add another 25% buffer. Then assume the pump's flow rate is cut in half by pumping the thicker cooling oil.
