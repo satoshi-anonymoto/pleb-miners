@@ -151,12 +151,10 @@ _The math and assumptions here need to be vetted. Consider them highly suspect._
 Note the temperature ratings for different materials (°C):
 <img src="img/material_temp_ratings.jpg">
 
-> a) avoid any thermoplastic, polymers in the immersion enclosure - especially for the tank structure. HDPE is resistant within specific temperature range but there are plenty other materials you can choose which will last for a lifetime.
-
-> b) container of water left for the long time in the tank with hot dielectric and 20-50k usd hardware is asking for trouble.
-
-> c) plan for disaster, plan for abuse by the user - we want to take into account not maximum working temperatures but maximum “fuckup happens” temperature.
-- [Maciek DCX](https://t.me/ImmersionCoolingTechnologyTalk/16913)
+> a) avoid any thermoplastic, polymers in the immersion enclosure - especially for the tank structure. HDPE is resistant within specific temperature range but there are plenty other materials you can choose which will last for a lifetime.  
+> b) container of water left for the long time in the tank with hot dielectric and 20-50k usd hardware is asking for trouble.  
+> c) plan for disaster, plan for abuse by the user - we want to take into account not maximum working temperatures but maximum “fuckup happens” temperature.  
+> - [Maciek DCX](https://t.me/ImmersionCoolingTechnologyTalk/16913)
 
 
 ## Connectors, pipes, hoses
