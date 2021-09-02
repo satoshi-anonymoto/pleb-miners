@@ -12,9 +12,10 @@ Start with [@econoalchemist](https://twitter.com/econoalchemist)'s in-depth arti
 * Electrical Wiring
 * Air Cooling & Noise Suppression
 * [Immersion Cooling](immersion_cooling/README.md)
+* Miner Setup & Remote Access
+* Mining Pools
 * [API Access / Automated Control](api/README.md)
 * Maintenance/Repair
-* Mining Pools
 
 
 ## How to contribute to this repo
@@ -28,4 +29,4 @@ You'll see the repo's directory structure and can just navigate to the file that
 
 When you're done making changes, click the "Source Control" icon, review your changes, type in a commit message (should briefly explain your changes), then click the checkmark icon at the top of the left menu panel.
 
-If your changes conflict or overlap with someone else's, you will need to "merge" them--decide which changes to keep and which to throw out.
+Your changes will be created as a "pull request" which the maintainers will review. If everything looks good, your PR will be merged into the main repo. And once it's merged, your github user will be automatically listed as a contributor to the repo!
