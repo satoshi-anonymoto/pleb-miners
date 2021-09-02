@@ -7,7 +7,9 @@ Also from discussions in this [twitter thread](https://twitter.com/SatoshiAnon/s
 
 
 ### Does immersion cooling make sense for you?
-If you're running a single S9 that you bought for $450, no. Unfortunately the cost for even the simplest immersion cooling setup is probably around $300-400. For a single 3kW ASIC ($4k-10k!) it's easier to justify the costs.
+If you're running a single S9 that you bought for $450, no. Unfortunately the cost for even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $433. For a single 3kW ASIC ($4k-10k!) it's easier to justify the costs.
+
+That being said, if you're running an S9 just for fun and don't care as much about the ROI or if noise mitigation is a must-have, then immersion can make sense.
 
 
 ## Terminology
