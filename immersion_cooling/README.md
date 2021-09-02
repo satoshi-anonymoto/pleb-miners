@@ -87,7 +87,7 @@ But take care in deciding what you put in there: see the note below on [material
 
 I've seen people put jugs of water in the tanks to fill up space, but that water would act as a kind of heat battery. Plus it's a bad idea to have any water in your immersion tank (jug leaks, water reaches miners. Disaster).
 
-_uninformed noob guess:_ Instead it seems better to have empty, sealed glass containers. No heat battery, no water risk.
+_uninformed noob guess:_ Instead it seems better to have empty, sealed glass containers. No heat battery, no water risk. Even thin glass should be good [up to 300°F](https://www.berlinpackaging.com/at_what_temperature_will_glass_break/). Just make sure the container's seals can withstand the oil heat (up to 160°F) as well. A [glass juice container](https://www.target.com/p/64oz-glass-straight-side-pitcher-with-lid-threshold-8482/-/A-79474147) might be tall enough that the lid isn't even submerged.
 
 
 ## Plate heat exchangers
