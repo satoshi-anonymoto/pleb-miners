@@ -80,6 +80,15 @@ See this [tutorial for making a fish tank](https://www.youtube.com/watch?v=H8LGI
 ### DIY steel builds
 Very cheap raw material. But you have to be able to custom cut pieces and weld them.
 
+### How to fill excess volume
+If your container is oversized, you'll end up wasting expensive cooling oil on the unused space. It might also make it harder to create a directed current flow across your ASICs. So ideally you'll just fill that empty space with something that displaces the volume.
+
+But take care in deciding what you put in there: see the note below on [material max temps](#selection-of-materials).
+
+I've seen people put jugs of water in the tanks to fill up space, but that water would act as a kind of heat battery. Plus it's a bad idea to have any water in your immersion tank (jug leaks, water reaches miners. Disaster).
+
+_uninformed noob guess:_ Instead it seems better to have empty, sealed glass containers. No heat battery, no water risk.
+
 
 ## Plate heat exchangers
 The oil-to-water transfer block for dual-loop systems. Plate heat exchangers with smaller ports (3/4", 1"?) will likely be harder for a pump to push the cooling oil through. Need more testing. For now just opt for the 1.25" ports?
