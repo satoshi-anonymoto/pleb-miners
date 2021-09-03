@@ -1,15 +1,15 @@
 # Immersion Cooling
 The most effective way to keep your ASICs at a constant, consistent temperature is to run them fully submerged in a special liquid that pumps the heat out to heat exchangers. The bonus side effect is that the ASICs run silently in the liquid with only a heat exchanger fans running outside.
 
+An added benefit if you live in colder climates is that you can efficiently reuse the heat by [integrating it with your central heating](https://twitter.com/Betahedged/status/1428044220665896967), or perhaps for [recreational use](https://twitter.com/JessePeltan/status/1287518077291241473). This may allow you to be competitive even in the worst market conditions (price/difficulty).
+
 Most of the information here was gleaned from the [Immersion Cooling Technology Talk](https://t.me/ImmersionCoolingTechnologyTalk) Telegram group.
 
 Also from discussions in this [twitter thread](https://twitter.com/SatoshiAnon/status/1431610380212637704).
 
 
 ### Does immersion cooling make sense for you?
-If you're running a single S9 that you bought for $450, no. Unfortunately the cost for even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. For a single 3kW ASIC ($4k-10k!) it's easier to justify the costs.
-
-That being said, if you're running an S9 just for fun and don't care as much about the ROI or if noise mitigation is a must-have, then immersion can make sense.
+If you are going to reuse the heat, or if noise mitigation is paramount, then yes! If not, it's hard to justify the costs if you are running a single S9 that you bought for $450 as the cost for even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. For a single 3kW ASIC ($4k-10k!) it might be easier to justify the costs.
 
 
 ## Terminology
@@ -33,7 +33,10 @@ pros:
 
 cons:
 * Pumping the oil through all the radiator loopbacks is difficult so you have to spec out the pump appropriately.
-* Radiator is less efficient at shedding heat when filled with oil instead of water (probably due to difficulty of pumping it through? Faster water flow = better cooling? Or inherent property of the cooling oil vs water?)
+* Radiator is less efficient at shedding heat when filled with oil instead of water due to the thermal conductivity properties of the liquids, meaning a bigger heat exchanger is required. At 40C:
+*   Water       0.631 W/m.K
+*   BitCool     0.137 W/m.K
+*   ThermaSafeR 0.129 W/m.K
 * Uses more oil (most expensive part of any system) than a double loop system.
 * Need to keep the hose lines short to minimize amount of oil that has to be pumped around; limits installation options.
 * Will quickly hit a practical limit where it can't dissipate enough heat. If plebs think they'll want to scale up over time, better to just go double loop from the start.
@@ -51,6 +54,14 @@ pros:
 cons:
 * Higher initial starting costs. Oil pump needed (though can have much more modest specs), water pump, plate heat exchanger block, then all the same radiator, fan, hoses, etc.
 * Some seasonal water mix adjustments for freezing temps.
+
+
+## Material compatibility
+Be sure all components are compatible with the dielectric fluid. [Engineered Fluids' Material Compatibility Guide](https://www.engineeredfluids.com/material-compatibility) is a good reference. A very short TLDR;
+* Metal: good
+* CPVC good, PVC not good
+* In general, components compatible with hydraulic oils are compatible with dielectric fluids
+* Pump and connectors' o-rings and seals must not be "regular rubber", but of Viton/FMK quality or similar (ref. the above point)
 
 
 ## Cooling parameters, data, design considerations
