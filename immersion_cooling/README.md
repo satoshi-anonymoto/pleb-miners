@@ -1,7 +1,7 @@
 # Immersion Cooling
-The most effective way to keep your ASICs at a constant, consistent temperature is to run them fully submerged in a special liquid that pumps the heat out to heat exchangers. The bonus side effect is that the ASICs run silently in the liquid with only a heat exchanger fans running outside.
+The most effective way to keep your ASICs at a constant, consistent temperature is to run them fully submerged in a special liquid that pumps the heat out to heat exchangers. The bonus side effect is that the ASICs run silently in the liquid with only a heat exchanger fan running outside.
 
-An added benefit if you live in colder climates is that you can efficiently reuse the heat by [integrating it with your central heating](https://twitter.com/Betahedged/status/1428044220665896967), or perhaps for [recreational use](https://twitter.com/JessePeltan/status/1287518077291241473). This may allow you to be competitive even in the worst market conditions (price/difficulty).
+An added benefit if you live in colder climates is that you can efficiently reuse the heat by [integrating it with your central heating](https://twitter.com/Betahedged/status/1428044220665896967) or perhaps for [recreational use](https://twitter.com/JessePeltan/status/1287518077291241473). By offsetting existing heating costs with heat harnessed from mining, your ASICs may stay cost-competitive longer even in the worst market conditions (e.g. price and/or difficulty pressures).
 
 Most of the information here was gleaned from the [Immersion Cooling Technology Talk](https://t.me/ImmersionCoolingTechnologyTalk) Telegram group.
 
@@ -9,7 +9,11 @@ Also from discussions in this [twitter thread](https://twitter.com/SatoshiAnon/s
 
 
 ### Does immersion cooling make sense for you?
-If you are going to reuse the heat, or if noise mitigation is paramount, then yes! If not, it's hard to justify the costs if you are running a single S9 that you bought for $450 as the cost for even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. For a single 3kW ASIC ($4k-10k!) it might be easier to justify the costs.
+It depends on a number of factors -- primarily scale -- but also your own priorities and interests.
+
+If you're running a single S9 that you bought for $450, the raw ROI math for an immersion setup will be tough; even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. However, if you're going to reuse the heat or if noise mitigation is paramount, then maybe it is worth it for you. Or maybe this whole immersion thing just sounds fascinating and you love to tinker.
+
+For a single 3kW ASIC ($4k-10k!) the math starts to change for the better. An important consideration is that your miners should see a longer operating lifespan if they're kept in the kind of stable, consistent temps that are possible with immersion cooling. The day-to-day ROI on an immersion cooling setup might not be great, but you should really think of it as buying extra weeks, months, or even years for your miners.
 
 
 ## Terminology
@@ -33,10 +37,10 @@ pros:
 
 cons:
 * Pumping the oil through all the radiator loopbacks is difficult so you have to spec out the pump appropriately.
-* Radiator is less efficient at shedding heat when filled with oil instead of water due to the thermal conductivity properties of the liquids, meaning a bigger heat exchanger is required. At 40C:
-*   Water       0.631 W/m.K
-*   BitCool     0.137 W/m.K
-*   ThermaSafeR 0.129 W/m.K
+* Radiator is less efficient at shedding heat when filled with oil instead of water due to the thermal conductivity properties of the liquids, meaning a bigger heat exchanger is required. At 40°C:
+  * Water       0.631 W/m.K
+  * BitCool     0.137 W/m.K
+  * ThermaSafeR 0.129 W/m.K
 * Uses more oil (most expensive part of any system) than a double loop system.
 * Need to keep the hose lines short to minimize amount of oil that has to be pumped around; limits installation options.
 * Will quickly hit a practical limit where it can't dissipate enough heat. If plebs think they'll want to scale up over time, better to just go double loop from the start.
