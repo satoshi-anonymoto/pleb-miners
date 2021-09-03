@@ -7,7 +7,7 @@ Also from discussions in this [twitter thread](https://twitter.com/SatoshiAnon/s
 
 
 ### Does immersion cooling make sense for you?
-If you're running a single S9 that you bought for $450, no. Unfortunately the cost for even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $433. For a single 3kW ASIC ($4k-10k!) it's easier to justify the costs.
+If you're running a single S9 that you bought for $450, no. Unfortunately the cost for even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. For a single 3kW ASIC ($4k-10k!) it's easier to justify the costs.
 
 That being said, if you're running an S9 just for fun and don't care as much about the ROI or if noise mitigation is a must-have, then immersion can make sense.
 
@@ -105,9 +105,12 @@ The oil-to-water transfer block for dual-loop systems. Plate heat exchangers wit
 * [1/4 HP submersible](https://www.menards.com/main/plumbing/pumps-tanks/utility-sump-pumps/barracuda-reg-1-4-hp-thermoplastic-submersible-utility-pump/91250/p-1444428713624-c-1489153238832.htm?tid=5737724981746642496&ipos=8): $56, 1500gph, 456W. [Works in hot oil](https://t.me/ImmersionCoolingTechnologyTalk/16593)
 * [1/4 HP submersible high flow](https://www.amazon.com/dp/B08BLTM97Q/ref=cm_sw_r_tw_dp_08FW16JB91VWQ5PP4F60?_encoding=UTF8&psc=1): $50, 2400gph, 456W
 * [1/3 HP submersible high flow](https://www.amazon.com/dp/B000X07GQS/ref=cm_sw_r_tw_dp_D5J9KFRC67JP0JGZY0T8?_encoding=UTF8&psc=1): $58, 2400gph, 492W
+* [Wayne 1/6 HP submersible](https://www.amazon.com/dp/B0009X8O2E/ref=cm_sw_r_tw_dp_KK7E7V5RC0SMCCVK5ZWX): $77, 3000gph, 300W
 * [Iron Might 1/15 HP](https://smile.amazon.com/dp/B00HEAOTEM/ref=cm_sw_r_tw_dp_TGZ3M41XQ7F02P4KSDRX): $148, 40gpm/2400gph, 1.3A / 156W. Designed for 24hr operation.
 
 Need to test different pumps. The 1/4 and 1/3 HP submersible pumps are known to work thanks to [CoinHeating](https://t.me/ImmersionCoolingTechnologyTalk/16593) but consume a lot of power. Might need that power to push the cooling oil through the plate heat exchanger, though. And even though they state that they have a 120°F shut-off, in [real-world tests](https://t.me/ImmersionCoolingTechnologyTalk/16765) they ran to an oil temp of 160°F.
+
+The Wayne 1/6 HP pump looks like a potential compromise between reducing HP a bit in exchange for burning less electricity.
 
 The Iron Might 1/15 HP pump looks temptingly more efficient. If it lives up to its stated numbers, its 3x price will easily be offset by its much lower energy consumption. However, it has to be installed below the water line to be gravity fed and it is not submersible. So your container would need ports drilled through the side or bottom.
 
