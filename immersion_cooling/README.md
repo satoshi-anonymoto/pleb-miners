@@ -13,7 +13,7 @@ It depends on a number of factors -- primarily scale -- but also your own priori
 
 If you're running a single S9 that you bought for $450, the raw ROI math for an immersion setup will be tough; even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. However, if you're going to reuse the heat or if noise mitigation is paramount, then maybe it is worth it for you. Or maybe this whole immersion thing just sounds fascinating and you love to tinker.
 
-For a single 3kW ASIC ($4k-10k!) the math starts to change for the better. An important consideration is that your miners should see a longer operating lifespan if they're kept in the kind of stable, consistent temps that are possible with immersion cooling. The day-to-day ROI on an immersion cooling setup might not be great, but you should really think of it as buying extra weeks, months, or even years for your miners.
+For a single 3kW ASIC ($4k-10k!) the math starts to change for the better. An important consideration is that your miners should see a [longer operating lifespan](https://www.youtube.com/watch?v=QHJJp9scB0c) if they're kept in the kind of stable, consistent temps that are possible with immersion cooling. The day-to-day ROI on an immersion cooling setup might not be great, but you should really think of it as buying extra weeks, months, or even years for your miners.
 
 
 ## Terminology
