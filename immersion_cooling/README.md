@@ -74,7 +74,7 @@ Be sure all components are compatible with the dielectric fluid. [Engineered Flu
 * Engineering Fluids guidelines state 2-4L/min per kW for minimum oil circulation rate.
 * Oil flow through the ASIC is key. Some miners [leave the case fans on](https://t.me/ImmersionCoolingTechnologyTalk/15448) to generate flow.
 * Oil-to-water [plate heat exchanger efficiency](https://t.me/ImmersionCoolingTechnologyTalk/16376): 120°F oil input heats the water to 110°F
-* Heat rejection calculator (http://www.machinetech.co.nz/Plastics+Equipment/Technical+Information/Heat+Rejection+Calculation++-++kW.html). Note: only for heat       rejection to one material. Can be useful for modeling dual loop systems but does not account for heat exchanger and coolant loop heat transfer.
+* [Heat rejection calculator](http://www.machinetech.co.nz/Plastics+Equipment/Technical+Information/Heat+Rejection+Calculation++-++kW.html). Note: only for heat       rejection to one material. Can be useful for modeling dual loop systems but does not account for heat exchanger and coolant loop heat transfer.
 
 
 ## Containers
