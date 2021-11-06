@@ -223,5 +223,7 @@ You will need either [fan spoofers](https://t.me/ImmersionCoolingTechnologyTalk/
 ## Sample builds
 * [BuildImmersion's (planned) single asic build](pleb_builds/buildimmersion.md)
 * [CoinHeated's double loop pool heating system](pleb_builds/coinheated.md)
+* [Neetbux Laboratories](https://www.youtube.com/channel/UC7fFZl-4CCu5MEwT9sDwvxw/videos)' legendary ammo can S9 immersion cooling YouTube guide [part 1](https://www.youtube.com/watch?v=8KlsoRAbey8), [part 2](https://www.youtube.com/watch?v=vwvIwoAirwQ), [part 3](https://www.youtube.com/watch?v=JWZcfD62TAo)
 * [Satoshi Anonymoto's (planned) two-ASIC/7.2kW build](pleb_builds/satoshi_anonymoto.md)
+* [Tieline001](https://www.reddit.com/user/Tieline001/)'s S17 Pro Arizona stock pot immersion guide, [Reddit thread](https://www.reddit.com/r/BitcoinMining/comments/qms7pv/my_s17_pro_mining_rig_immersion_is_the_best_way/), [YouTube video](https://www.youtube.com/watch?v=Vx42RjxxLvw)
 * [The Pleb Tank (proposed)](pleb_builds/pleb_tank.md)
