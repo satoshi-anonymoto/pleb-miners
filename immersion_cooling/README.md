@@ -172,8 +172,8 @@ _The math and assumptions here need to be vetted. Consider them highly suspect._
 
 
 ## Dielectric cooling oil
-* [DCX ThermaSafe R](https://cryptocooling.eu/#fluid): $240 for 24L; only ships from Poland.
-* [Engineering Fluids BitCool](https://www.engineeredfluids.com/bitcool): $180 for 20L (5.28gal); ships from Texas.
+* [DCX ThermaSafe R](https://cryptocooling.eu/#fluid): $241 for 25L ($9.64/l); only ships from Poland.
+* [Engineering Fluids BitCool](https://www.engineeredfluids.com/bitcool): $180 for 20L (5.28gal) ($9/l); ships from Texas. Add $58 if ordering from outside the USA: $238, ($11.9/l).
 * Mineral Oil: Usable for inexpensive miners (e.g. S9) or experiments but is generally expected to have impurities that will degrade the electronics.
 
 ## Water loop considerations
