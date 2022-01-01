@@ -221,6 +221,7 @@ You will need either [fan spoofers](https://t.me/ImmersionCoolingTechnologyTalk/
 * [VNISH](https://t.me/minerspeak/144462)
 
 ## Sample builds
+* [bicycle119's immersion setup](pleb_builds/bicycle119.md)
 * [BuildImmersion's (planned) single asic build](pleb_builds/buildimmersion.md)
 * [CoinHeated's double loop pool heating system](pleb_builds/coinheated.md)
 * [Neetbux Laboratories](https://www.youtube.com/channel/UC7fFZl-4CCu5MEwT9sDwvxw/videos)' legendary ammo can S9 immersion cooling YouTube guide [part 1](https://www.youtube.com/watch?v=8KlsoRAbey8), [part 2](https://www.youtube.com/watch?v=vwvIwoAirwQ), [part 3](https://www.youtube.com/watch?v=JWZcfD62TAo)
