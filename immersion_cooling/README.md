@@ -1,4 +1,6 @@
 # Immersion Cooling
+Make sure you watch [this great video](https://www.youtube.com/watch?v=OKgpPsjDP5g) on the basics of immersion cooling.
+
 The most effective way to keep your ASICs at a constant, consistent temperature is to run them fully submerged in a special liquid that pumps the heat out to heat exchangers. The bonus side effect is that the ASICs run silently in the liquid with only a heat exchanger fan running outside.
 
 An added benefit if you live in colder climates is that you can efficiently reuse the heat by [integrating it with your central heating](https://twitter.com/Betahedged/status/1428044220665896967) or perhaps for [recreational use](https://twitter.com/JessePeltan/status/1287518077291241473). By offsetting existing heating costs with heat harnessed from mining, your ASICs may stay cost-competitive longer even in the worst market conditions (e.g. price and/or difficulty pressures).
