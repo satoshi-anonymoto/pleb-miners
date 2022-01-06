@@ -39,10 +39,13 @@ pros:
 
 cons:
 * Pumping the oil through all the radiator loopbacks is difficult so you have to spec out the pump appropriately.
-* Radiator is less efficient at shedding heat when filled with oil instead of water due to the thermal conductivity properties of the liquids, meaning a bigger heat exchanger is required. At 40°C:
-  * Water       0.631 W/m.K
-  * BitCool     0.137 W/m.K
-  * ThermaSafeR 0.129 W/m.K
+* Radiator is less efficient at shedding heat when filled with oil instead of water due to the thermal properties of the liquids, meaning a bigger heat exchanger is required. By using [this equation](http://www.machinetech.co.nz/Plastics+Equipment/Technical+Information/Heat+Rejection+Calculation++-++kW.html), I expect you'll find that based on the liquid alone, the heat exchanger needs to be derated by >50%:
+  * BitCool:
+    * Density @ 15.6°C: 820kg/m3
+    * Specific heat @ 40°C: 2.054kj/kg°C
+  * ThermaSafeR:
+    * Density @ 15.0°C: 833kg/m3
+    * Specific heat @ 40°C: 2.200kj/kg°C
 * Uses more oil (most expensive part of any system) than a double loop system.
 * Need to keep the hose lines short to minimize amount of oil that has to be pumped around; limits installation options.
 * Will quickly hit a practical limit where it can't dissipate enough heat. If plebs think they'll want to scale up over time, better to just go double loop from the start.
