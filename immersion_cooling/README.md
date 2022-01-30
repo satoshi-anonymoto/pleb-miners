@@ -46,6 +46,8 @@ cons:
   * ThermaSafeR:
     * Density @ 15.0°C: 833kg/m3
     * Specific heat @ 40°C: 2.200kj/kg°C
+
+Also remember to consider the heat exchanger's specified temperature difference, and derate accordingly. More info [here](https://t.me/ImmersionCoolingTechnologyTalk/31286).
 * Uses more oil (most expensive part of any system) than a double loop system.
 * Need to keep the hose lines short to minimize amount of oil that has to be pumped around; limits installation options.
 * Will quickly hit a practical limit where it can't dissipate enough heat. If plebs think they'll want to scale up over time, better to just go double loop from the start.
