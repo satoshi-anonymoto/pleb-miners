@@ -179,7 +179,7 @@ _The math and assumptions here need to be vetted. Consider them highly suspect._
 
 
 ## Dielectric cooling oil
-* [Advanced Fluid Management's ThermaCoin 1900](https://t.me/AdvanceFluidManagement), contact Ryan for price quote.
+* [Advanced Fluid Management's ThermaCoin 1900](https://t.me/AdvanceFluidManagement): $32 per gallon for 5 gallon pail ($8.52/l).
 * [DCX ThermaSafe R](https://cryptocooling.eu/#fluid): $267 for 25L ($10.68/l); only ships from Poland.
 * [Engineering Fluids BitCool](https://engineeredfluids.store/collections/bitcool/products/bc-888): $180 for 20L (5.28gal) ($9/l); ships from Texas. Add $58 if ordering from outside the USA: $238, ($11.9/l).
 * Mineral Oil: Usable for inexpensive miners (e.g. S9) or experiments but is generally expected to have impurities that will degrade the electronics.
