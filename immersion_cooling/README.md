@@ -60,7 +60,8 @@ pros:
 * Minimizes the total cooling oil needed in the system.
 * Water is easier to pump so longer runs to the radiators are more practical.
 * Only real option once setups go beyond 1-2 high power (3kW+) ASICs (really rough guess).
-* Easier to incorporate into home heating uses (I think?).
+* Much Easier to incorporate into home heating uses. 
+* Can Utilize geothermal ground loops, snow melt sytems or in floor heating systems for extremely efficient cooling.
 
 cons:
 * Higher initial starting costs. Oil pump needed (though can have much more modest specs), water pump, plate heat exchanger block, then all the same radiator, fan, hoses, etc.
@@ -182,12 +183,14 @@ _The math and assumptions here need to be vetted. Consider them highly suspect._
 * [Advanced Fluid Management's ThermaCoin 1900](https://t.me/AdvanceFluidManagement): $32 per gallon for 5 gallon pail ($8.52/l).
 * [DCX ThermaSafe R](https://cryptocooling.eu/#fluid): $267 for 25L ($10.68/l); only ships from Poland.
 * [Engineering Fluids BitCool](https://engineeredfluids.store/collections/bitcool/products/bc-888): $180 for 20L (5.28gal) ($9/l); ships from Texas. Add $58 if ordering from outside the USA: $238, ($11.9/l).
-* Mineral Oil: Usable for inexpensive miners (e.g. S9) or experiments but is generally expected to have impurities that will degrade the electronics.
+* [Cryptotherm's CT Cool](https://www.cryptotherm.com/product/ctcool-immersion-fluid): $160 5 gallon pail $32$/gallon ($7/L). Ships from Calgary or Dallas Branch
+* Mineral Oil: Usable for inexpensive miners (e.g. S9) or experiments but is generally expected to have impurities that will degrade the electronics. Will absorb humidity from environment and degrade rapidly. Must keep agitation to a minimum.
 
 ## Water loop considerations
 To keep your water loop clear of any corrosion or buildup, [use distilled water](https://t.me/ImmersionCoolingTechnologyTalk/13031) with [antifreeze](https://t.me/ImmersionCoolingTechnologyTalk/14126), the key ingredient of which is [ethylene glycol](https://t.me/ImmersionCoolingTechnologyTalk/13019). The ratio of water to glycol changes in the winter (_guidance on ratios needed_).
 
 ## Grounding to discharge static buildup
+* metal difusers in the bottom of the tank grounded to the outside are a good place to start.
 Need more info. Start [here](https://t.me/ImmersionCoolingTechnologyTalk/13069)
 
 ## Selection of materials
