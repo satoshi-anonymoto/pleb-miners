@@ -1,7 +1,7 @@
 # Immersion Cooling
 Make sure you watch [this great video](https://www.youtube.com/watch?v=OKgpPsjDP5g) on the basics of immersion cooling.
 
-The most effective way to keep your ASICs at a constant, consistent temperature is to run them fully submerged in a special liquid that pumps the heat out to heat exchangers. The bonus side effect is that the ASICs run silently in the liquid with only a heat exchanger fan running outside.
+The most effective way to keep your ASICs at a constant, consistent temperature is to run them fully submerged in a special liquid (dielectric), and pump the heat out to heat exchangers. The bonus side effect is that the ASICs run silently in the liquid with only a pump, and a heat exchanger fan running outside.
 
 An added benefit if you live in colder climates is that you can efficiently reuse the heat by [integrating it with your central heating](https://twitter.com/Betahedged/status/1428044220665896967) or perhaps for [recreational use](https://twitter.com/JessePeltan/status/1287518077291241473). By offsetting existing heating costs with heat harnessed from mining, your ASICs may stay cost-competitive longer even in the worst market conditions (e.g. price and/or difficulty pressures).
 
@@ -13,7 +13,7 @@ Also from discussions in this [twitter thread](https://twitter.com/SatoshiAnon/s
 ### Does immersion cooling make sense for you?
 It depends on a number of factors -- primarily scale -- but also your own priorities and interests.
 
-If you're running a single S9 that you bought for $450, the raw ROI math for an immersion setup will be tough; even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. However, if you're going to reuse the heat or if noise mitigation is paramount, then maybe it is worth it for you. Or maybe this whole immersion thing just sounds fascinating and you love to tinker.
+If you're running a single S9 that you bought for $450, the raw ROI math for an immersion setup will be tough; even [the simplest immersion cooling setup](pleb_builds/pleb_tank.md) is $442. However, if you're going to reuse the heat or if noise mitigation is paramount, then maybe it is worth it to you. Or maybe this whole immersion thing just sounds fascinating and you love to tinker.
 
 For a single 3kW ASIC ($4k-10k!) the math starts to change for the better. An important consideration is that your miners should see a [longer operating lifespan](https://www.youtube.com/watch?v=QHJJp9scB0c) if they're kept in the kind of stable, consistent temps that are possible with immersion cooling. The day-to-day ROI on an immersion cooling setup might not be great, but you should really think of it as buying extra weeks, months, or even years for your miners.
 
@@ -50,18 +50,15 @@ cons:
 Also remember to consider the heat exchanger's specified temperature difference, and derate accordingly. More info [here](https://t.me/ImmersionCoolingTechnologyTalk/31286).
 * Uses more oil (most expensive part of any system) than a double loop system.
 * Need to keep the hose lines short to minimize amount of oil that has to be pumped around; limits installation options.
-* Will quickly hit a practical limit where it can't dissipate enough heat. If plebs think they'll want to scale up over time, better to just go double loop from the start.
 
 
 ## Basic design tradeoffs - double loop
-A must for any immersion setup at scale, but also has some compelling reasons for small-scale plebs.
 
 pros:
 * Minimizes the total cooling oil needed in the system.
 * Water is easier to pump so longer runs to the radiators are more practical.
-* Only real option once setups go beyond 1-2 high power (3kW+) ASICs (really rough guess).
-* Much Easier to incorporate into home heating uses. 
-* Can Utilize geothermal ground loops, snow melt sytems or in floor heating systems for extremely efficient cooling.
+* Much easier to incorporate into home heating uses. 
+* Can utilize geothermal ground loops, snow melt sytems or in floor heating systems for extremely efficient cooling.
 
 cons:
 * Higher initial starting costs. Oil pump needed (though can have much more modest specs), water pump, plate heat exchanger block, then all the same radiator, fan, hoses, etc.
@@ -190,7 +187,8 @@ _The math and assumptions here need to be vetted. Consider them highly suspect._
 To keep your water loop clear of any corrosion or buildup, [use distilled water](https://t.me/ImmersionCoolingTechnologyTalk/13031) with [antifreeze](https://t.me/ImmersionCoolingTechnologyTalk/14126), the key ingredient of which is [ethylene glycol](https://t.me/ImmersionCoolingTechnologyTalk/13019). The ratio of water to glycol changes in the winter (_guidance on ratios needed_).
 
 ## Grounding to discharge static buildup
-* metal difusers in the bottom of the tank grounded to the outside are a good place to start.
+* ALL tanks must be grounded. Metal tanks are easy. Tanks in other materials, see next line:
+* Metal difusers in the bottom of the tank grounded to the outside are a good place to start.
 Need more info. Start [here](https://t.me/ImmersionCoolingTechnologyTalk/13069)
 
 ## Selection of materials
