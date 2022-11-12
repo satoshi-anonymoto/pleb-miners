@@ -236,7 +236,7 @@ You will need either [fan spoofers](https://t.me/ImmersionCoolingTechnologyTalk/
 
 * [Fan spoofers](https://t.me/ImmersionCoolingTechnologyTalk/18688) are the easiest (plug n' play, just remove the fans and plug in the fan spoofers where the fans were connected), they will trick the asic to believe it has fans running
 * They will cost you between $5 - $10 per spoofer
-* Different asics have different pin connections, [so there are no *one* fan spoofer to rule them all unfortunately](https://t.me/ImmersionCoolingTechnologyTalk/18151)
+* Different ASICs have different pin connections, [so there are no *one* fan spoofer to rule them all unfortunately](https://t.me/ImmersionCoolingTechnologyTalk/18151)
 * E.g. Antminer S17/19 have [flat 4-pin connectors](https://t.me/ImmersionCoolingTechnologyTalk/13281), and requires 4 pieces ([it has 4 monitored fans](https://www.google.com/search?q=antminer+s19&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_-_ODy9jzAhWYRPEDHWGiB9QQ_AUoAXoECAEQAw&biw=2560&bih=1315#imgrc=X0IFSbHAqYJDSM))
 * E.g. Whatsminer's have only [two main fans](https://www.google.com/search?q=whatsminer+m30&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjehv6JzdjzAhW6SfEDHfMaC9QQ_AUoAXoECAEQAw&biw=2560&bih=1315#imgrc=lHwKoW_DLz7fIM), with varying connector type (4-pin or [6-pin](https://t.me/ImmersionCoolingTechnologyTalk/15580)) depending on the model, and they also monitor the power supply unit (PSU) fan which might be of a different connector type
 * Make sure to check your fan connector types and/or inform your supplier of what asic model you have so that you receive the correct ones
